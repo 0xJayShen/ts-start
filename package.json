@@ -1,0 +1,13 @@
+{
+  "name": "ts-start",
+  "version": "1.0.0",
+  "description": "ts config ",
+  "repository": "https://github.com/qq976739120/ts-start.git",
+  "author": "Jay <976739120@qq.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "ts-node": "^8.3.0",
+    "typescript": "^3.5.2"
+  }
+}
