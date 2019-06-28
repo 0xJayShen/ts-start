@@ -1,0 +1,1 @@
+{"version":3,"file":"normal_grammar.js","sourceRoot":"","sources":["../../src/normal_grammar.ts"],"names":[],"mappings":";;;;;;;;;;;AAAA,IAAI,CAA0B,CAAC;AAC/B,CAAC,GAAG,EAAC,GAAG,EAAE,CAAC,EAAE,GAAG,EAAE,CAAC,EAAC,CAAC;AAChB,IAAA,OAAC,CAAM;AACZ,OAAO,CAAC,GAAG,CAAC,CAAC,CAAC,CAAC,CAAA,GAAG;AAClB,IAAI,CAAC,gBAAO,CAAC,CAAC,CAAC;AACf,OAAO,CAAC,GAAG,CAAC,CAAC,CAAC,CAAC,CAAA,gBAAgB"}
