@@ -1,4 +1,10 @@
-
+function sleep(second) {
+  return new Promise((resolve, reject) => {
+    setTimeout(() => {
+      resolve('request done! ' + Math.random());
+    }, second);
+  });
+}
 
 async function f1(): Promise<string> {
   sleep(10000);
@@ -29,14 +35,13 @@ async function res() {
 
 async function res2() {
   //并发处理
-  let a: string = await f1();
-  let b: string = await f2();
-  let c: string = await f3();
-  await Promise.all([a, b, c]);
-  console.log(a, b, c);
+  let a = f1();
+  let b = f2();
+  let c = f3();
+  let res = await Promise.all([a, b, c]);
+  console.log(res[0],res[1],res[2])
 }
 
 
 res();
-// res2()
 

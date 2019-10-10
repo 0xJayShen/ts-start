@@ -14,11 +14,5 @@
 // let dict: { [index: string]: any; }={};
 // dict["name"] = 1;
 // console.log(dict);
-function sleep(second) {
-  return new Promise((resolve, reject) => {
-    setTimeout(() => {
-      resolve('request done! ' + Math.random());
-    }, second);
-  });
-}
+
 
