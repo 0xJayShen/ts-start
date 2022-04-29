@@ -14,7 +14,7 @@
     "@pefish/js-node-assist": "^0.6.9",
     "@pefish/js-util-crypto": "^0.0.9",
     "@pefish/js-util-time": "^0.0.2",
-    "async": "^2.0.1",
+    "async": "^2.6.4",
     "bech32": "^1.1.2",
     "bigi": "^1.4.0",
     "bignumber.js": "^4.1.0",
